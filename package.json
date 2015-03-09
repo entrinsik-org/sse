@@ -1,0 +1,37 @@
+{
+  "name": "ent-sse",
+  "version": "0.0.0",
+  "description": "server sent event utilities",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test --reporter progress --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/entrinsik-org/sse"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "gulp": "^3.8.11",
+    "gulp-bump": "^0.2.2",
+    "gulp-filter": "^2.0.2",
+    "gulp-git": "^1.1.0",
+    "gulp-istanbul": "^0.6.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-mocha": "^2.0.0",
+    "gulp-tag-version": "^1.2.1",
+    "jshint-stylish": "^1.0.1",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "hoek": "^2.11.1",
+    "lodash": "^3.5.0",
+    "q": "^1.2.0",
+    "redis": "^0.12.1"
+  }
+}
